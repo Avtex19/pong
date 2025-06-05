@@ -1,0 +1,24 @@
+{
+	"name": "node-pong",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server/index.ts",
+	"scripts": {
+		"start": "node server/index.ts"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@types/express": "^5.0.2",
+		"express": "^4.21.2",
+		"jquery": "^3.4.1",
+		"socket.io": "^4.8.1",
+		"socket.io-client": "^4.8.1",
+		"uuid": "^3.3.3"
+	},
+	"devDependencies": {
+		"@types/uuid": "^10.0.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.8.3"
+	}
+}
